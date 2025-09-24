@@ -124,3 +124,111 @@ footer {
     box-shadow: 0 2px 8px rgba(36, 0, 76, 0.15);
     transition: box-shadow 0.3s ease-in-out;
 }
+
+/* Warning Banner Styles */
+.warning-banner {
+    background-color: #FFF3CD;
+    border: 1px solid #FFEAA7;
+    border-left: 4px solid #F39C12;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    border-radius: 4px;
+    font-size: 0.95rem;
+    line-height: 1.4;
+}
+
+.warning-banner-icon {
+    display: inline-block;
+    font-weight: bold;
+    color: #F39C12;
+    margin-right: 0.5rem;
+}
+
+.warning-banner-text {
+    color: #856404;
+}
+
+/* Add Funds Page Styles */
+.add-funds-container {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
+}
+
+.payment-methods {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.payment-method-tile {
+    background-color: white;
+    border: 2px solid #E0E0E0;
+    border-radius: 8px;
+    padding: 1.5rem;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.payment-method-tile:hover {
+    border-color: #24004C;
+    box-shadow: 0 4px 12px rgba(36, 0, 76, 0.1);
+    transform: translateY(-2px);
+}
+
+.payment-method-tile h3 {
+    margin: 0 0 0.5rem 0;
+    color: #24004C;
+    font-size: 1.2rem;
+}
+
+.payment-method-tile p {
+    margin: 0;
+    color: #666;
+    font-size: 0.9rem;
+}
+
+.payment-method-icon {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    display: block;
+}
+
+/* Saved Methods */
+.saved-methods {
+    margin-top: 2rem;
+}
+
+.saved-method-item {
+    background-color: #F8F9FA;
+    border: 1px solid #DEE2E6;
+    border-radius: 6px;
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.saved-method-item:hover {
+    background-color: #E9ECEF;
+}
+
+.saved-method-info h4 {
+    margin: 0 0 0.25rem 0;
+    font-size: 1rem;
+    color: #24004C;
+}
+
+.saved-method-info p {
+    margin: 0;
+    font-size: 0.85rem;
+    color: #6C757D;
+}
